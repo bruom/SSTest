@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AA7272341FE3F884003990DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272331FE3F884003990DE /* AppDelegate.swift */; };
 		AA7272361FE3F884003990DE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA7272351FE3F884003990DE /* GameScene.sks */; };
-		AA7272381FE3F884003990DE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA7272371FE3F884003990DE /* Actions.sks */; };
 		AA72723A1FE3F884003990DE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272391FE3F884003990DE /* GameScene.swift */; };
 		AA72723C1FE3F884003990DE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72723B1FE3F884003990DE /* GameViewController.swift */; };
 		AA72723F1FE3F884003990DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA72723D1FE3F884003990DE /* Main.storyboard */; };
@@ -17,6 +16,18 @@
 		AA7272441FE3F884003990DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7272421FE3F884003990DE /* LaunchScreen.storyboard */; };
 		AA72724F1FE3F884003990DE /* StarStriderTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72724E1FE3F884003990DE /* StarStriderTestTests.swift */; };
 		AA72725A1FE3F884003990DE /* StarStriderTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272591FE3F884003990DE /* StarStriderTestUITests.swift */; };
+		AA72726C1FE3FDBB003990DE /* PlayerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72726B1FE3FDBB003990DE /* PlayerEntity.swift */; };
+		AA72726F1FE3FDE7003990DE /* MoveOnTouchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72726E1FE3FDE7003990DE /* MoveOnTouchComponent.swift */; };
+		AA7272711FE3FE13003990DE /* VisualComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272701FE3FE13003990DE /* VisualComponent.swift */; };
+		AA7272741FE4027C003990DE /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272731FE4027C003990DE /* Util.swift */; };
+		AA7272761FE408A5003990DE /* AutoFireProjecticleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272751FE408A5003990DE /* AutoFireProjecticleComponent.swift */; };
+		AA7272781FE40903003990DE /* ProjectileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272771FE40903003990DE /* ProjectileEntity.swift */; };
+		AA72727A1FE40A24003990DE /* ProjectileLinearComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272791FE40A24003990DE /* ProjectileLinearComponent.swift */; };
+		AA72727C1FE43BDE003990DE /* AutoFanFireComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72727B1FE43BDE003990DE /* AutoFanFireComponent.swift */; };
+		AA72727E1FE44007003990DE /* AutoRailgunComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72727D1FE44007003990DE /* AutoRailgunComponent.swift */; };
+		AA7272801FE440F0003990DE /* ProjectileFadeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72727F1FE440F0003990DE /* ProjectileFadeComponent.swift */; };
+		AA7272821FE44330003990DE /* RemoveWhenGoneComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272811FE44330003990DE /* RemoveWhenGoneComponent.swift */; };
+		AA7272861FE44DBA003990DE /* RemovableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272851FE44DBA003990DE /* RemovableEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +51,6 @@
 		AA7272301FE3F884003990DE /* StarStriderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarStriderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7272331FE3F884003990DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7272351FE3F884003990DE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		AA7272371FE3F884003990DE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		AA7272391FE3F884003990DE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AA72723B1FE3F884003990DE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AA72723E1FE3F884003990DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +63,18 @@
 		AA7272551FE3F884003990DE /* StarStriderTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarStriderTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7272591FE3F884003990DE /* StarStriderTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarStriderTestUITests.swift; sourceTree = "<group>"; };
 		AA72725B1FE3F884003990DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA72726B1FE3FDBB003990DE /* PlayerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEntity.swift; sourceTree = "<group>"; };
+		AA72726E1FE3FDE7003990DE /* MoveOnTouchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveOnTouchComponent.swift; sourceTree = "<group>"; };
+		AA7272701FE3FE13003990DE /* VisualComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualComponent.swift; sourceTree = "<group>"; };
+		AA7272731FE4027C003990DE /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		AA7272751FE408A5003990DE /* AutoFireProjecticleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFireProjecticleComponent.swift; sourceTree = "<group>"; };
+		AA7272771FE40903003990DE /* ProjectileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileEntity.swift; sourceTree = "<group>"; };
+		AA7272791FE40A24003990DE /* ProjectileLinearComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileLinearComponent.swift; sourceTree = "<group>"; };
+		AA72727B1FE43BDE003990DE /* AutoFanFireComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFanFireComponent.swift; sourceTree = "<group>"; };
+		AA72727D1FE44007003990DE /* AutoRailgunComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRailgunComponent.swift; sourceTree = "<group>"; };
+		AA72727F1FE440F0003990DE /* ProjectileFadeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileFadeComponent.swift; sourceTree = "<group>"; };
+		AA7272811FE44330003990DE /* RemoveWhenGoneComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveWhenGoneComponent.swift; sourceTree = "<group>"; };
+		AA7272851FE44DBA003990DE /* RemovableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovableEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +125,12 @@
 		AA7272321FE3F884003990DE /* StarStriderTest */ = {
 			isa = PBXGroup;
 			children = (
+				AA7272721FE4025B003990DE /* Util */,
+				AA72726D1FE3FDD4003990DE /* Components */,
+				AA72726A1FE3FDA3003990DE /* Entities */,
+				AA7272671FE3FCED003990DE /* Nodes */,
 				AA7272331FE3F884003990DE /* AppDelegate.swift */,
 				AA7272351FE3F884003990DE /* GameScene.sks */,
-				AA7272371FE3F884003990DE /* Actions.sks */,
 				AA7272391FE3F884003990DE /* GameScene.swift */,
 				AA72723B1FE3F884003990DE /* GameViewController.swift */,
 				AA72723D1FE3F884003990DE /* Main.storyboard */,
@@ -132,6 +157,46 @@
 				AA72725B1FE3F884003990DE /* Info.plist */,
 			);
 			path = StarStriderTestUITests;
+			sourceTree = "<group>";
+		};
+		AA7272671FE3FCED003990DE /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		AA72726A1FE3FDA3003990DE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AA72726B1FE3FDBB003990DE /* PlayerEntity.swift */,
+				AA7272771FE40903003990DE /* ProjectileEntity.swift */,
+				AA7272851FE44DBA003990DE /* RemovableEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AA72726D1FE3FDD4003990DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA72726E1FE3FDE7003990DE /* MoveOnTouchComponent.swift */,
+				AA7272701FE3FE13003990DE /* VisualComponent.swift */,
+				AA7272751FE408A5003990DE /* AutoFireProjecticleComponent.swift */,
+				AA7272791FE40A24003990DE /* ProjectileLinearComponent.swift */,
+				AA72727B1FE43BDE003990DE /* AutoFanFireComponent.swift */,
+				AA72727D1FE44007003990DE /* AutoRailgunComponent.swift */,
+				AA72727F1FE440F0003990DE /* ProjectileFadeComponent.swift */,
+				AA7272811FE44330003990DE /* RemoveWhenGoneComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA7272721FE4025B003990DE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AA7272731FE4027C003990DE /* Util.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +310,6 @@
 				AA7272361FE3F884003990DE /* GameScene.sks in Resources */,
 				AA7272411FE3F884003990DE /* Assets.xcassets in Resources */,
 				AA7272441FE3F884003990DE /* LaunchScreen.storyboard in Resources */,
-				AA7272381FE3F884003990DE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +337,18 @@
 				AA72723A1FE3F884003990DE /* GameScene.swift in Sources */,
 				AA72723C1FE3F884003990DE /* GameViewController.swift in Sources */,
 				AA7272341FE3F884003990DE /* AppDelegate.swift in Sources */,
+				AA72727C1FE43BDE003990DE /* AutoFanFireComponent.swift in Sources */,
+				AA7272711FE3FE13003990DE /* VisualComponent.swift in Sources */,
+				AA7272741FE4027C003990DE /* Util.swift in Sources */,
+				AA72726F1FE3FDE7003990DE /* MoveOnTouchComponent.swift in Sources */,
+				AA7272861FE44DBA003990DE /* RemovableEntity.swift in Sources */,
+				AA7272801FE440F0003990DE /* ProjectileFadeComponent.swift in Sources */,
+				AA7272821FE44330003990DE /* RemoveWhenGoneComponent.swift in Sources */,
+				AA7272781FE40903003990DE /* ProjectileEntity.swift in Sources */,
+				AA72727A1FE40A24003990DE /* ProjectileLinearComponent.swift in Sources */,
+				AA72726C1FE3FDBB003990DE /* PlayerEntity.swift in Sources */,
+				AA7272761FE408A5003990DE /* AutoFireProjecticleComponent.swift in Sources */,
+				AA72727E1FE44007003990DE /* AutoRailgunComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
