@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7272341FE3F884003990DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272331FE3F884003990DE /* AppDelegate.swift */; };
+		AA7272361FE3F884003990DE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA7272351FE3F884003990DE /* GameScene.sks */; };
+		AA7272381FE3F884003990DE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA7272371FE3F884003990DE /* Actions.sks */; };
+		AA72723A1FE3F884003990DE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272391FE3F884003990DE /* GameScene.swift */; };
+		AA72723C1FE3F884003990DE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72723B1FE3F884003990DE /* GameViewController.swift */; };
+		AA72723F1FE3F884003990DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA72723D1FE3F884003990DE /* Main.storyboard */; };
+		AA7272411FE3F884003990DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7272401FE3F884003990DE /* Assets.xcassets */; };
+		AA7272441FE3F884003990DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7272421FE3F884003990DE /* LaunchScreen.storyboard */; };
+		AA72724F1FE3F884003990DE /* StarStriderTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72724E1FE3F884003990DE /* StarStriderTestTests.swift */; };
+		AA72725A1FE3F884003990DE /* StarStriderTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7272591FE3F884003990DE /* StarStriderTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA72724B1FE3F884003990DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7272281FE3F884003990DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA72722F1FE3F884003990DE;
+			remoteInfo = StarStriderTest;
+		};
+		AA7272561FE3F884003990DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7272281FE3F884003990DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA72722F1FE3F884003990DE;
+			remoteInfo = StarStriderTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7272301FE3F884003990DE /* StarStriderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarStriderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7272331FE3F884003990DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7272351FE3F884003990DE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AA7272371FE3F884003990DE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AA7272391FE3F884003990DE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA72723B1FE3F884003990DE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AA72723E1FE3F884003990DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7272401FE3F884003990DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7272431FE3F884003990DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7272451FE3F884003990DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA72724A1FE3F884003990DE /* StarStriderTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarStriderTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA72724E1FE3F884003990DE /* StarStriderTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarStriderTestTests.swift; sourceTree = "<group>"; };
+		AA7272501FE3F884003990DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7272551FE3F884003990DE /* StarStriderTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarStriderTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7272591FE3F884003990DE /* StarStriderTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarStriderTestUITests.swift; sourceTree = "<group>"; };
+		AA72725B1FE3F884003990DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA72722D1FE3F884003990DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7272471FE3F884003990DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7272521FE3F884003990DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7272271FE3F884003990DE = {
+			isa = PBXGroup;
+			children = (
+				AA7272321FE3F884003990DE /* StarStriderTest */,
+				AA72724D1FE3F884003990DE /* StarStriderTestTests */,
+				AA7272581FE3F884003990DE /* StarStriderTestUITests */,
+				AA7272311FE3F884003990DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7272311FE3F884003990DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7272301FE3F884003990DE /* StarStriderTest.app */,
+				AA72724A1FE3F884003990DE /* StarStriderTestTests.xctest */,
+				AA7272551FE3F884003990DE /* StarStriderTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7272321FE3F884003990DE /* StarStriderTest */ = {
+			isa = PBXGroup;
+			children = (
+				AA7272331FE3F884003990DE /* AppDelegate.swift */,
+				AA7272351FE3F884003990DE /* GameScene.sks */,
+				AA7272371FE3F884003990DE /* Actions.sks */,
+				AA7272391FE3F884003990DE /* GameScene.swift */,
+				AA72723B1FE3F884003990DE /* GameViewController.swift */,
+				AA72723D1FE3F884003990DE /* Main.storyboard */,
+				AA7272401FE3F884003990DE /* Assets.xcassets */,
+				AA7272421FE3F884003990DE /* LaunchScreen.storyboard */,
+				AA7272451FE3F884003990DE /* Info.plist */,
+			);
+			path = StarStriderTest;
+			sourceTree = "<group>";
+		};
+		AA72724D1FE3F884003990DE /* StarStriderTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA72724E1FE3F884003990DE /* StarStriderTestTests.swift */,
+				AA7272501FE3F884003990DE /* Info.plist */,
+			);
+			path = StarStriderTestTests;
+			sourceTree = "<group>";
+		};
+		AA7272581FE3F884003990DE /* StarStriderTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7272591FE3F884003990DE /* StarStriderTestUITests.swift */,
+				AA72725B1FE3F884003990DE /* Info.plist */,
+			);
+			path = StarStriderTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA72722F1FE3F884003990DE /* StarStriderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA72725E1FE3F884003990DE /* Build configuration list for PBXNativeTarget "StarStriderTest" */;
+			buildPhases = (
+				AA72722C1FE3F884003990DE /* Sources */,
+				AA72722D1FE3F884003990DE /* Frameworks */,
+				AA72722E1FE3F884003990DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarStriderTest;
+			productName = StarStriderTest;
+			productReference = AA7272301FE3F884003990DE /* StarStriderTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7272491FE3F884003990DE /* StarStriderTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7272611FE3F884003990DE /* Build configuration list for PBXNativeTarget "StarStriderTestTests" */;
+			buildPhases = (
+				AA7272461FE3F884003990DE /* Sources */,
+				AA7272471FE3F884003990DE /* Frameworks */,
+				AA7272481FE3F884003990DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA72724C1FE3F884003990DE /* PBXTargetDependency */,
+			);
+			name = StarStriderTestTests;
+			productName = StarStriderTestTests;
+			productReference = AA72724A1FE3F884003990DE /* StarStriderTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7272541FE3F884003990DE /* StarStriderTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7272641FE3F884003990DE /* Build configuration list for PBXNativeTarget "StarStriderTestUITests" */;
+			buildPhases = (
+				AA7272511FE3F884003990DE /* Sources */,
+				AA7272521FE3F884003990DE /* Frameworks */,
+				AA7272531FE3F884003990DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7272571FE3F884003990DE /* PBXTargetDependency */,
+			);
+			name = StarStriderTestUITests;
+			productName = StarStriderTestUITests;
+			productReference = AA7272551FE3F884003990DE /* StarStriderTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7272281FE3F884003990DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Bruno Omella Mainieri";
+				TargetAttributes = {
+					AA72722F1FE3F884003990DE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AA7272491FE3F884003990DE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA72722F1FE3F884003990DE;
+					};
+					AA7272541FE3F884003990DE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA72722F1FE3F884003990DE;
+					};
+				};
+			};
+			buildConfigurationList = AA72722B1FE3F884003990DE /* Build configuration list for PBXProject "StarStriderTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7272271FE3F884003990DE;
+			productRefGroup = AA7272311FE3F884003990DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA72722F1FE3F884003990DE /* StarStriderTest */,
+				AA7272491FE3F884003990DE /* StarStriderTestTests */,
+				AA7272541FE3F884003990DE /* StarStriderTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA72722E1FE3F884003990DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA72723F1FE3F884003990DE /* Main.storyboard in Resources */,
+				AA7272361FE3F884003990DE /* GameScene.sks in Resources */,
+				AA7272411FE3F884003990DE /* Assets.xcassets in Resources */,
+				AA7272441FE3F884003990DE /* LaunchScreen.storyboard in Resources */,
+				AA7272381FE3F884003990DE /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7272481FE3F884003990DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7272531FE3F884003990DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA72722C1FE3F884003990DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA72723A1FE3F884003990DE /* GameScene.swift in Sources */,
+				AA72723C1FE3F884003990DE /* GameViewController.swift in Sources */,
+				AA7272341FE3F884003990DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7272461FE3F884003990DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA72724F1FE3F884003990DE /* StarStriderTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7272511FE3F884003990DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA72725A1FE3F884003990DE /* StarStriderTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA72724C1FE3F884003990DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA72722F1FE3F884003990DE /* StarStriderTest */;
+			targetProxy = AA72724B1FE3F884003990DE /* PBXContainerItemProxy */;
+		};
+		AA7272571FE3F884003990DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA72722F1FE3F884003990DE /* StarStriderTest */;
+			targetProxy = AA7272561FE3F884003990DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA72723D1FE3F884003990DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA72723E1FE3F884003990DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7272421FE3F884003990DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7272431FE3F884003990DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA72725C1FE3F884003990DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA72725D1FE3F884003990DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA72725F1FE3F884003990DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = StarStriderTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.StarStriderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7272601FE3F884003990DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = StarStriderTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.StarStriderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA7272621FE3F884003990DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = StarStriderTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.StarStriderTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarStriderTest.app/StarStriderTest";
+			};
+			name = Debug;
+		};
+		AA7272631FE3F884003990DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = StarStriderTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.StarStriderTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarStriderTest.app/StarStriderTest";
+			};
+			name = Release;
+		};
+		AA7272651FE3F884003990DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = StarStriderTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.StarStriderTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarStriderTest;
+			};
+			name = Debug;
+		};
+		AA7272661FE3F884003990DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = StarStriderTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.StarStriderTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarStriderTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA72722B1FE3F884003990DE /* Build configuration list for PBXProject "StarStriderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA72725C1FE3F884003990DE /* Debug */,
+				AA72725D1FE3F884003990DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA72725E1FE3F884003990DE /* Build configuration list for PBXNativeTarget "StarStriderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA72725F1FE3F884003990DE /* Debug */,
+				AA7272601FE3F884003990DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7272611FE3F884003990DE /* Build configuration list for PBXNativeTarget "StarStriderTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7272621FE3F884003990DE /* Debug */,
+				AA7272631FE3F884003990DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7272641FE3F884003990DE /* Build configuration list for PBXNativeTarget "StarStriderTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7272651FE3F884003990DE /* Debug */,
+				AA7272661FE3F884003990DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7272281FE3F884003990DE /* Project object */;
+}
